@@ -886,9 +886,9 @@ button.swiper-pagination-bullet {
   box-shadow: 16px 0px 52px rgba(14, 24, 80, 0.2), -2px 0px 4px rgba(69, 79, 126, 0.02); }
 
 .callback__close {
-  margin-top: 24px;
-  margin-left: 16px;
-  margin-bottom: 32px; }
+  margin-top: 24px !important;
+  margin-left: 16px !important;
+  margin-bottom: 32px !important; }
 
 .feedback__close {
   margin-top: 24px;
