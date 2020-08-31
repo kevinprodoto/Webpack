@@ -74,8 +74,8 @@
     width: 312px;
 }
 .modal-footer__button {
-    margin-left: 16px;
-    margin-bottom: 16px;
+    margin-left: 16px !important;
+    margin-bottom: 16px !important;
     margin-right: 0 !important;
 }
 .modal-footer__button:first-child:hover {
