@@ -1,0 +1,97 @@
+.main-technics {
+    background-color: #f8f8f8;
+}
+.header-technics {
+    height: 80px;
+    box-sizing: border-box;
+    background: linear-gradient(270deg, #FFFFFF 0%, #F8F8F8 98.61%);
+    border-top: 1px solid #D9FFF5;
+}
+.header-technics__title {
+    color: #7E7E82;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin: 16px;
+}
+
+.main-technics__button {
+    height: 160px;
+    width: 160px;
+    background-color: #fff;
+    outline: none;
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main-technics__button::after {
+    content: "";
+    width: 40px;
+    height: 40px;
+    background-image: url("../img/go.svg");
+    align-self: flex-end;
+    margin: 16px;
+} 
+.main-technics__text {
+    font-family: "TT Lakes";
+    font-size: 16px;
+    line-height: 24px;
+    line-height: 24px;
+    color: #1B1C21;
+    margin: 16px;
+    white-space: pre;
+    font-weight: 510;
+}
+.main-technics__icon {
+    display: none;
+    margin-right: 16px;
+    margin-left: 32px;
+    transition-duration: 1s;
+    margin-top: 10px;
+}
+@media (min-width: 768px) and (max-width: 1439px) {
+    .header-technics {
+        height: 55px;
+    }
+    .main-technics__button {
+        width: 224px !important;
+    }
+    .main-technics__button:hover {
+        box-shadow: 0 0 5px 5px #ffd7e3;
+        cursor: pointer;
+    }
+    .main-technics__icon {
+        display: inline;
+    }
+    .main-technics__button {
+        margin-left: 24px;
+        margin-bottom: 12px;
+    }
+    .hidden-technics {
+    display: none;   
+    }
+}
+@media (min-width: 1440px) {
+    .header-technics {
+        height: 55px;
+    }
+    .main-technics__button {
+        width: 240px !important;
+        margin-left: 32px;
+        margin-bottom: 16px;
+    }
+    .main-technics__button:hover {
+        box-shadow: 0 0 5px 5px #ffd7e3;
+        cursor: pointer;
+    }
+    .main-technics__icon {
+        display: inline;
+    }
+    .hidden-technics:nth-child(n+5) {
+    display: none;  
+    }
+}

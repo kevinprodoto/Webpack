@@ -1,0 +1,65 @@
+@import "modal/modal";
+@import "fader/fader";
+@import "modal-menu/modal-menu";
+@import "button/button";
+@import "header/header";
+@import "main/main";
+@import "brands/brands";
+@import "technics/technics";
+@import "prices/prices";
+@import "footer/footer";
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "TT Lakes";
+}
+a {
+    text-decoration: none;
+}
+.rotate {
+    transform: rotate(180deg);
+}
+.text-active {
+    display: inline;
+}
+.inactive {
+    opacity: 0.2;
+}
+.body-overflow-hidden {
+    overflow-y: hidden;
+}
+@keyframes rotate {
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes scale {
+    to {
+        transform: scale(0.5);
+    }
+}
+@keyframes call {
+    25% {
+        transform: scale(1.2);
+    }
+    50% {
+        transform: rotate(-20deg);
+    }
+    75% {
+        transform: rotate(20deg);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+@keyframes message {
+    25% {
+        transform: scale(1.2);
+    }
+    75% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
